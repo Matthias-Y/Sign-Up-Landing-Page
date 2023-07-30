@@ -20,7 +20,7 @@
             <p>Sign Up NOW to get STARTED!</p>
         </header>
         <div class="form-container">
-            <form action="" method="get" class="user-form">
+            <form action="" method="get" id="user-form" class="user-form">
                 <div class="form-entry">
                     <label for="first-name">FIRST NAME</label>
                     <input type="text" id="first-name" name="first-name" required>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="form-entry">
                     <label for="phone-num">PHONE NUMBER</label>
-                    <input type="tel" id="phone-num" name="phone-num" required>
+                    <input type="tel" id="phone-num" name="phone-num">
                 </div>
                 <div class="form-entry">
                     <label for="password">PASSWORD</label>
@@ -45,8 +45,10 @@
                     <label for="password">CONFIRM PASSWORD</label>
                     <input type="password" id="confirm-password" name="confirm-password" required>
                 </div>
-            </form>
+            </form>   
         </div>
+        <input type="submit" form="user-form" value="Create Account">
+        <h2>Already have an account? <a href="./index.html">Log In</a></h2>
     </div>
 </body>
 </html>

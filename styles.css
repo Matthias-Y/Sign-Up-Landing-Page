@@ -90,4 +90,21 @@ input {
     border-color: #8e8e8e;
 }
 
+input[type="submit"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8e8e8e;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
 
