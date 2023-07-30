@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 body {
     display:flex;
-    justify-content: flex-start;
 }
 
 .hero-container {
@@ -14,10 +14,10 @@ body {
     overflow: hidden;
     align-items: center;
     position: relative;
-    gap: 20px;
     height: 100vh;
     width: 30vw;
     max-width: 600px;
+    justify-self: start;
 }
 
 .hero-image {
@@ -38,3 +38,56 @@ body {
 .logo {
     height: 100px;
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+header{
+    margin-left: 30px;
+    margin-top: 25vh;
+}
+
+header h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 60px;
+    row-gap: 25px;
+}
+
+.form-container {
+    background-color:#F6F7F8;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+}
+
+input {
+    padding: 2px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #8e8e8e;
+}
+
+
